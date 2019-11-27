@@ -1,0 +1,109 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+}
+body {
+    background: #F6F6F6;
+}
+
+.designer {
+    background: url(../pictures/alex.png) no-repeat;
+}
+.developer {
+    background: url(../pictures/alex.png) no-repeat;
+}
+.artist {
+    background: url(../pictures/elena.png) no-repeat;
+}
+.g-designer {
+    background: url(../pictures/lily.png) no-repeat;
+}
+.wrapper {
+    width: 100%;
+    background: #F6F6F6;
+}
+.designer, .developer, .artist, .g-designer {
+    width: 270px;
+    height: 270px;
+}
+
+h1 {
+   font-family: 'Lato', sans-serif;
+   font-size: 34px;
+   font-weight: 700;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 8px;
+}
+p {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   text-align: center;
+   margin-bottom: 60px;
+}
+.person-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.person {
+    margin: 0 15px 30px;
+}
+h2 {
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   margin: 20px 0 5px 0;
+}
+span {
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #646464;
+}
+span.top {
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: #dddbdb;
+    margin: 0 auto 40px;
+}
+.person-overlay {
+    width: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+}
+.person-social a {
+    display: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(94, 203, 231, 0.75);
+    text-align: center;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0 2px;
+}
+.person-social a img {
+    display: block;
+}
+.person-social a:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.75);
+}
+.person:hover .person-overlay {
+    background-color: #18b5dc;
+    display: flex;
+}
+.person:hover .person-overlay .person-social a {
+    display: flex;
+}
+.person-social {
+    display: flex;
+    justify-content: center;
+}
+
